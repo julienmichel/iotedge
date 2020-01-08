@@ -366,7 +366,7 @@ namespace Microsoft.Azure.Devices.Edge.Agent.Kubernetes.Test
                 Assert.True(edgeDefinition.HasValue);
                 var receivedEdgeDefinition = edgeDefinition.OrDefault();
                 var agentModule = receivedEdgeDefinition.Spec[0];
-                Assert.Equal("test-image:1", agentModule.Config.Image);
+                Assert.Equal(AgentConfig1.Image, agentModule.Config.Image);
             }
         }
 
@@ -466,7 +466,7 @@ namespace Microsoft.Azure.Devices.Edge.Agent.Kubernetes.Test
                 Assert.True(edgeDefinition.HasValue);
                 var receivedEdgeDefinition = edgeDefinition.OrDefault();
                 var agentModule = receivedEdgeDefinition.Spec[0];
-                Assert.Equal("test-image:1", agentModule.Config.Image);
+                Assert.Equal(agentDeploymentImage, agentModule.Config.Image);
             }
         }
     }
