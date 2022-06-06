@@ -17,7 +17,7 @@ edgelet-utils = { path = "../edgelet-utils" }
 
 [dev-dependencies]
 rand = "0.4"
-tokio = "0.1.8"
+tokio = "1.8.4"
 typed-headers = "0.1"
 
 edgelet-test-utils = { path = "../edgelet-test-utils" }
