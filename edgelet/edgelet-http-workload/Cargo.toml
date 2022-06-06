@@ -29,6 +29,6 @@ edgelet-hsm = { path = "../edgelet-hsm" }
 native-tls = "0.2"
 openssl = "0.10"
 tempfile = "3"
-tokio = "0.1"
+tokio = "1.8"
 tokio-tls = "0.2"
 workload = { path = "../workload" }
