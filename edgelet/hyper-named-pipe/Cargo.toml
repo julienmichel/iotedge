@@ -9,7 +9,7 @@ edition = "2018"
 failure = "0.1"
 futures = "0.1"
 hex = "0.3"
-hyper = "0.12"
+hyper = "0.14"
 tokio-named-pipe = { path = "../tokio-named-pipe" }
 url = "1.7"
 
