@@ -10,7 +10,7 @@ bytes = "0.4"
 chrono = { version = "0.4", features = ["serde"] }
 failure = "0.1"
 futures = "0.1"
-hyper = "0.12"
+hyper = "0.14"
 log = "0.4"
 percent-encoding = "1.0"
 serde = "1.0"
