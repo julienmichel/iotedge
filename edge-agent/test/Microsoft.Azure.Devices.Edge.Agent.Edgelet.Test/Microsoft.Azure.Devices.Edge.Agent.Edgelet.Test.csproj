@@ -43,7 +43,7 @@
   </ItemGroup>
 
   <ItemGroup Condition="'$(DotNet_Runtime)' == 'netcoreapp3.0'">
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.6" />
   </ItemGroup>
 
   <ItemGroup>
